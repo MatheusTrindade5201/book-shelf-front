@@ -1,0 +1,1 @@
+A pasta components será destinada aos componentes da aplicação

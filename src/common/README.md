@@ -1,0 +1,1 @@
+Em common costumo guardar arquivos de contexto e de hooks reacts, que já são mais especificos da biblioteca

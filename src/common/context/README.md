@@ -1,0 +1,1 @@
+Destinada a contextos que pode vir a ser necessário na aplicação

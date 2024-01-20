@@ -1,0 +1,1 @@
+A pasta pages será onde teremos os arquivos que representam as páginas da nossa aplicação. No React temos uma biblioteca para lidar com rotas, chamada React Router Dom.
