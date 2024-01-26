@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.603);
+  width: 550px;
+  color: #fff;
+}
+.wrapper h2 {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+}
+
+.wrapper img {
+  opacity: 0.6;
+  width: 100%;
+}
+.sign_in {
+  background-color: rgba(0, 0, 0, 0.884);
+  padding: 20px;
+  padding-top: 150px;
+}
+
+.wrapper .remember_forgot {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 4px;
+}
+
+.remember_forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+.remember_forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper button {
+  box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.452);
+  border-radius: 13px;
+  height: 50px;
+  width: 150px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  display: block;
+  background-color: rgba(209, 167, 104, 0.87);
+}
