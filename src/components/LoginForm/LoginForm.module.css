@@ -1,7 +1,7 @@
 .wrapper {
   display: flex;
+  align-content: center;
   background-color: rgba(0, 0, 0, 0.603);
-  width: 550px;
   color: #fff;
 }
 .wrapper h2 {
@@ -12,10 +12,11 @@
 
 .wrapper img {
   opacity: 0.6;
-  width: 100%;
+  width: 550px;
 }
 .sign_in {
   background-color: rgba(0, 0, 0, 0.884);
+  width: 440px;
   padding: 20px;
   padding-top: 150px;
 }
