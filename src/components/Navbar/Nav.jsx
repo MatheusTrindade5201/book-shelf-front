@@ -36,7 +36,17 @@ const Nav =() => {
                     </div>
                 </div>
                     <div>
-                        {click && navLinks}
+                        {click && <ul className="flex gap-8 mr-16 text[18px]">
+                            {React.Children.toArray(
+                                   navLinks.map((link) => 
+                                    (
+                                        <Link spy={true} smooth={true} to={link.path}>
+                                            <li className="hover:text-amber-100 transition birder-b-2 border-slate-600  hover:border-amber-100 cursor-pointer">{link.title}</li>
+                                        </Link>
+                                    ))
+                                )
+                            }
+                        </ul>}
                     </div>
 
                     <button className="block sm:hidden transition" onClick={handleClick}>
